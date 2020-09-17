@@ -1,0 +1,83 @@
+body{
+	background-image: url(fondo.jpg);
+}
+h1{
+	color: black;
+}
+form-1{
+	padding-top: 50px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-left: 500px;
+	text-align: center;
+	height: 400px;
+	width: 900px;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center; /* requerido para alineación horizontal */
+}
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
+footer {
+	background-color:white;
+	height: 165px;
+    color: white;
+  	padding: 10px;
+  	width: 1350px;
+}
+.window-notice{
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+.window-notice .content {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 300px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.content-buttons{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-color:white;
+  max-width: 40px;
+  min-width: 140px !important;
+}
+h3{
+	color: white;
+	size: 12px;
+}
+.content-buttons-2{
+	background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-color:white;
+  max-width: 50px;
+  min-width: 140px !important;
+}
